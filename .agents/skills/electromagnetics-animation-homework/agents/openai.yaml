@@ -1,0 +1,4 @@
+interface:
+  display_name: "电磁场与电磁波动画作业"
+  short_description: "制作科研风格的电磁学 Manim 字幕动画，核对公式、物理图像与成片"
+  default_prompt: "使用 $electromagnetics-animation-homework 制作或修订电磁场与电磁波课程动画作业。"

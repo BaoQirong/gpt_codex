@@ -1,0 +1,141 @@
+[
+  {
+    "id": "opening",
+    "text": "电磁场与电磁波理论第一章动画作业。梯度 散度 旋度 介绍。组内成员：B24010722 B24010723 B24010724 B24010725",
+    "caption": "作业标题与组内成员",
+    "seconds": 4.0
+  },
+  {
+    "id": "fields",
+    "text": "标量场为每个位置赋予一个数，矢量场赋予一个矢量。电势和电场分别属于这两类场。",
+    "caption": "标量场与矢量场",
+    "seconds": 4.6
+  },
+  {
+    "id": "overview",
+    "text": "梯度、散度和旋度描述场的局部空间变化。梯度作用于标量场，散度和旋度作用于矢量场。",
+    "caption": "三种局部微分运算",
+    "seconds": 4.8
+  },
+  {
+    "id": "grad_geometry",
+    "text": "曲面高度 z=f(x,y)。梯度在 xy 平面指向最快增加的方向；蓝色曲面箭头展示对应的上升切向。",
+    "latex_text": "曲面高度 $z=f(x,y)$。梯度在 $xy$ 平面指向最快增加的方向；\n蓝色曲面箭头展示对应的上升切向。",
+    "caption": "椭圆抛物面与梯度方向",
+    "seconds": 6.0
+  },
+  {
+    "id": "grad_directional",
+    "text": "沿单位方向的方向导数，等于梯度与该方向的点积。同向时最大，垂直时为零。",
+    "caption": "方向导数是梯度在单位方向上的投影",
+    "seconds": 5.4
+  },
+  {
+    "id": "grad_formula",
+    "text": "本例的梯度为 (2x,4y)。一般三维标量场的梯度，由三个偏导数组成。",
+    "latex_text": "本例的梯度为 $(2x,4y)$。\n一般三维标量场的梯度，由三个偏导数组成。",
+    "caption": "直角坐标表示",
+    "seconds": 5.0
+  },
+  {
+    "id": "div_flux",
+    "text": "通量是矢量场穿过曲面的法向贡献。对闭合面，外法向为正，向内为负。",
+    "caption": "通量采用曲面的法向分量",
+    "seconds": 4.8
+  },
+  {
+    "id": "div_cases",
+    "text": "向外张开对应正散度，向内汇聚对应负散度。均匀场的流入与流出抵消，散度为零。",
+    "caption": "正散度、负散度与零散度",
+    "seconds": 6.0
+  },
+  {
+    "id": "div_definition",
+    "text": "散度是净向外通量与体积之比，在体积趋于零时的极限。它衡量局部源的强弱。",
+    "caption": "散度：单位体积的净向外通量，取局部极限",
+    "seconds": 5.5
+  },
+  {
+    "id": "div_formula",
+    "text": "直角坐标下，散度是三个同方向偏导数之和，结果是标量。",
+    "caption": "矢量场 → 标量场",
+    "seconds": 4.5
+  },
+  {
+    "id": "curl_loop",
+    "text": "环量是矢量场沿闭合曲线的切向贡献之和，描述沿曲线的环绕效应。",
+    "caption": "环量采用闭合曲线的切向分量",
+    "seconds": 4.8
+  },
+  {
+    "id": "curl_definition",
+    "text": "环量除以所围面积，再取局部极限，得到旋度沿该面法向的分量。",
+    "caption": "旋度：单位面积的环量，取局部极限",
+    "seconds": 5.0
+  },
+  {
+    "id": "curl_direction",
+    "text": "旋度方向遵循右手定则。逆时针环量对应正法向，顺时针对应负法向。",
+    "caption": "正向绕行与法向采用右手定则",
+    "seconds": 5.2
+  },
+  {
+    "id": "curl_formula",
+    "text": "对与第三个坐标无关的平面场，旋度仅有法向分量，由两个交叉偏导数相减得到。",
+    "caption": "平面场的旋度沿法向",
+    "seconds": 5.8
+  },
+  {
+    "id": "comparison",
+    "text": "散度与旋度描述不同的局部性质。它们可以单独非零，也可以同时非零。",
+    "caption": "净流出与局部环量是两个独立的观察维度",
+    "seconds": 4.7
+  },
+  {
+    "id": "em_gradient",
+    "text": "静电场 E=-∇φ，垂直于等势面，并指向电势降低的方向。",
+    "latex_text": "静电场 $\\mathbf E=-\\nabla\\varphi$，垂直于等势面，\n并指向电势降低的方向。",
+    "caption": "静电场与电势",
+    "seconds": 5.0
+  },
+  {
+    "id": "em_displacement",
+    "text": "D 是电位移矢量，其散度等于自由电荷密度。闭合面的净 D 通量，等于所包围的自由电荷。",
+    "latex_text": "$\\mathbf D$ 是电位移矢量，其散度等于自由电荷密度。\n闭合面的净 $\\mathbf D$ 通量，等于所包围的自由电荷。",
+    "caption": "D 的散度与自由电荷",
+    "seconds": 6.4
+  },
+  {
+    "id": "em_current",
+    "text": "稳恒长直导线：线内 H 的旋度等于自由传导电流密度；线外无电流处，H 的局部旋度为零。",
+    "latex_text": "稳恒长直导线：线内 $\\mathbf H$ 的旋度等于自由传导电流密度；\n线外无电流处，$\\mathbf H$ 的局部旋度为零。",
+    "caption": "H 的旋度与传导电流",
+    "seconds": 6.0
+  },
+  {
+    "id": "em_capacitor",
+    "text": "充电电容的极板间没有传导电流；电位移矢量随时间增大，位移电流密度等于电位移矢量的时间变化率，对应磁场强度的环量。",
+    "latex_text": "充电电容的极板间没有传导电流；$\\mathbf D$ 随时间增大，\n位移电流密度 $\\mathbf J_d=\\frac{\\partial\\mathbf D}{\\partial t}$ 对应 $\\mathbf H$ 的环量。",
+    "caption": "充电电容与位移电流",
+    "seconds": 8.5
+  },
+  {
+    "id": "em_wave",
+    "text": "均匀各向同性无损介质的平面波中，E、H与传播方向两两正交。E与H同相，E×H指向传播方向。",
+    "latex_text": "均匀各向同性无损介质的平面波中，$\\mathbf E$、$\\mathbf H$ 与传播方向两两正交。\n$\\mathbf E$ 与 $\\mathbf H$ 同相，$\\mathbf E\\times\\mathbf H$ 指向传播方向。",
+    "caption": "平面波：方向正交、振荡同相",
+    "seconds": 7.0
+  },
+  {
+    "id": "summary",
+    "text": "梯度对应最快增加，散度对应局部净流出，旋度对应局部环量；它们也是电磁场方程的语言。",
+    "caption": "数学图像与电磁学意义",
+    "seconds": 5.0
+  },
+  {
+    "id": "references",
+    "text": "[1] 徐立勤, 曹伟. 电磁场与电磁波理论[M]. 3版. 北京: 科学出版社, 2018. [2] ULABY F T, RAVAIOLI U. Fundamentals of Applied Electromagnetics[M]. 8th ed. Hoboken, NJ: Pearson, 2020. [3] 赵洪牛, 万彩云, 胡国雷, 等. 高等数学: 下册[M]. 2版. 北京: 高等教育出版社, 2019.",
+    "caption": "参考资料",
+    "seconds": 4.0
+  }
+]
